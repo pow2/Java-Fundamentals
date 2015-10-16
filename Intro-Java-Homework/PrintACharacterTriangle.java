@@ -4,8 +4,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Created by xxxxxxxxxx on 15.10.2015 y..
- *
+ * Created by pow2 on 15.10.2015 y.
+ * 
+ * Create a triangle of characters, based on input. 
+ * Learn about java.util.Scanner and Integer.parseInt (). 
+ * Test your program with integers up to 26. 
+ * Think why
  */
 public class PrintACharacterTriangle {
 
