@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Created by xxxxxxxxxx on 15.10.2015 y..
+ * Created by pow2 on 15.10.2015 y.
  *
  *  Write a program that converts the decimal number system to the ghetto numeral system.
  *  In the ghetto, numbers are represented as following:
