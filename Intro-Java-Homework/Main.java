@@ -3,10 +3,15 @@ package com.softuni;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Created by pow2 on 15.10.2015 y.
+ *
+ * Main makes use of everything with a simple command line interface.
+ */
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
-	// write your code here
         AssignVariables AV = new AssignVariables();
         PrintCharacters PC = new PrintCharacters();
         PrintACharacterTriangle PCT = new PrintACharacterTriangle();
