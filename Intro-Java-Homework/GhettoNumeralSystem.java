@@ -21,7 +21,7 @@ import java.util.Scanner;
  */
 public class GhettoNumeralSystem {
 
-    private void Print (String l){
+    private void print (String l){
         char[] k = l.toCharArray();
         String p = "";
         for (int i = 0; i<=(k.length-1); i++){
@@ -62,15 +62,15 @@ public class GhettoNumeralSystem {
         System.out.println(p);
     }
 
-    private void UI() throws IOException {
+    private void uI() {
         Scanner in = new Scanner(System.in);
         System.out.print("\nEnter your ghetto shenanigans : ");
         String line = in.nextLine();
         System.out.print("\n");
-        Print(line);
+        print(line);
     }
-    public void Start() throws IOException {
-        this.UI();
+    public void start() {
+        this.uI();
     }
 
 }
