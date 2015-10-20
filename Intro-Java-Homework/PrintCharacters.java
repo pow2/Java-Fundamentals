@@ -8,14 +8,14 @@ package com.softuni;
  * Note: you can directly declare and increment char in the for-loop. for (char c = ‘a’; …)
  */
 public class PrintCharacters {
-    private void Print(){
+    private void print(){
         for (char c = 'a'; c <= 'z'; c++)
         {
             System.out.print(c+" ");
         }
         System.out.print("\n");
     }
-    public void Start() {
-        this.Print();
+    public void start() {
+        this.print();
     }
 }
