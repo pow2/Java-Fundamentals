@@ -1,6 +1,5 @@
 package com.softuni;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -12,7 +11,7 @@ import java.util.Scanner;
  */
 public class SumNumbersFromOneToN {
 
-    private void Print(int i){
+    private void print(int i){
         int k = i;
         for (int l=i-1; l > 0; l--)
         {
@@ -21,7 +20,7 @@ public class SumNumbersFromOneToN {
         System.out.print(k+"\n");
     }
 
-    private void UI() throws IOException {
+    private void uI() {
         Scanner in = new Scanner(System.in);
         System.out.print("\nEnter N : ");
         String line = in.nextLine();
@@ -29,13 +28,14 @@ public class SumNumbersFromOneToN {
         int result;
         try {
             result = Integer.parseInt(line);
+            print(result);
         } catch (NumberFormatException ex) {
-            result = 0;
+            System.out.println("Incorrect input");
         }
-        Print(result);
+
     }
 
-    public void Start() throws IOException {
-        this.UI();
+    public void start() {
+        this.uI();
     }
 }
