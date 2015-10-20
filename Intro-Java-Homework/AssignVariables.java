@@ -22,7 +22,7 @@ public class AssignVariables {
     private char char1 = 'c';
     private short short2;
 
-    private void Print (){
+    private void print (){
         System.out.println("this is boolean false : " + boolean1);
         System.out.println("this is String \"Palo Alto, CA\" : " + name1);
         System.out.println("this is int 32767 : " + int1);
@@ -34,7 +34,7 @@ public class AssignVariables {
         System.out.println("this is char 'c' : " + char1);
     }
 
-    private void TrySomethingFun(){
+    private void trySomethingFun(){
         try{
             short2 = Short.parseShort("32768");
             System.out.println("this is short 32768 : " + short2);
@@ -44,9 +44,9 @@ public class AssignVariables {
         }
 
     }
-    public void Start() {
-        this.Print();
-        this.TrySomethingFun();
+    public void start() {
+        this.print();
+        this.trySomethingFun();
     }
 }
 
