@@ -56,6 +56,7 @@ public class GhettoNumeralSystem {
             }
             else {
                 p = "Unexpected Symbols";
+                break;
             }
         }
         System.out.println(p);
