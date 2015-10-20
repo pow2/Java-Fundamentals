@@ -41,27 +41,27 @@ public class Main {
             }
             switch (result) {
                 case 3: {
-                    AV.Start();
+                    AV.start();
                 }
                 break;
                 case 4: {
-                    PC.Start();
+                    PC.start();
                 }
                 break;
                 case 5: {
-                    PCT.Start();
+                    PCT.start();
                 }
                 break;
                 case 6: {
-                    SMFOTN.Start();
+                    SMFOTN.start();
                 }
                 break;
                 case 7: {
-                    GNS.Start();
+                    GNS.start();
                 }
                 break;
                 case 8: {
-                    GA.Start();
+                    GA.start();
                 } break;
                 default:
                     break;
